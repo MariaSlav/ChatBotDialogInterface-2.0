@@ -1,0 +1,39 @@
+
+/*шрифт*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*размер шрифта*/
+html, body {
+	font-size: 16px;
+}
+
+/*цвет фона, параметры диалогового интерфейса*/
+section#demo {
+	background: #f6f0ff;
+    position: relative;
+    padding: 0;
+    min-height: 100vh;
+    transition: height 9999s;
+}
+
+/*вертикальное выравнивание*/
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+}
+
+/*фон диалогового интерфейса, тень*/
+.card {
+	background: #fff;
+    box-shadow: 13px 13px 28px 2px rgba(0, 0, 0, 0.035);
+    padding: 7px 15px;
+}
+
+
+	
+	
